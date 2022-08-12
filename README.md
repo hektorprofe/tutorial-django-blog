@@ -4,33 +4,28 @@ Este es el repositorio de la sección Django del [curso maestro de Python](https
 
 ## Instalación y uso
 
-Se requiere `pipenv`, viene configurado en la versión de **Python 3.10**, se puede cambiar en el `Pipfile`.
-
-Podéis clonar el repositorio e instalar el entorno virtual así:
+Podéis clonar el repositorio e instalar el entorno virtual así, se requiere `pipenv`:
 
 ```bash
 git clone https://github.com/hektorprofe/tutorial-django-blog.git
 cd tutorial-django-blog/
-pipenv install
+pipenv install -r requirements.txt
 ```
 
 Para poner en marcha el proyecto:
 
 ```bash
-cd tutorial/
 pipenv run server
 ```
 
 El usuario del administrador es `admin` con contraseña `1234`, podéis crear uno al gusto con:
 
 ```bash
-cd tutorial/
 pipenv run python manage.py createsuperuser
 ```
 
 Cuando ya no necesitéis el proyecto podéis desinstalar el entorno:
 
 ```bash
-cd tutorial-django-blog/
 pipenv --rm
 ```
