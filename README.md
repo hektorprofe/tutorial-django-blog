@@ -15,7 +15,7 @@ pipenv install -r requirements.txt
 Para poner en marcha el proyecto:
 
 ```bash
-pipenv run server
+pipenv run python manage.py runserver
 ```
 
 El usuario del administrador es `admin` con contraseña `1234`, podéis crear uno al gusto con:
