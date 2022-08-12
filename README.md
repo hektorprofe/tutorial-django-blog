@@ -4,7 +4,7 @@ Este es el repositorio de la sección Django del [curso maestro de Python](https
 
 ## Instalación y uso
 
-Se requiere `Pipenv` en la máquina, viene configurado para la versión de **Python 3.10**, se puede cambiar en el `Pipfile`.
+Se requiere `pipenv`, viene configurado en la versión de **Python 3.10**, se puede cambiar en el `Pipfile`.
 
 Podéis clonar el repositorio e instalar el entorno virtual así:
 
