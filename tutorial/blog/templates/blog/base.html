@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'blog/styles.css' %}">
+</head>
+<body>
+    <main>
+        <img src="{% static 'blog/hektor.png' %}" class="top"/>
+        <h1>Bienvenidos a mi blog</h1>
+        <h2>Archivo personal de mis entradas</h2>
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>
