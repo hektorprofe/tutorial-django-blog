@@ -30,8 +30,6 @@ pipenv run python manage.py createsuperuser
 
 Cuando ya no necesitéis el proyecto podéis desinstalar el entorno:
 
-Podéis clonar el repositorio e instalar el entorno virtual:
-
 ```bash
 cd tutorial-django-blog/
 pipenv --rm
